@@ -15,6 +15,13 @@ I approached this exercise in the following **phases**:
 9. **Solution** – utilized the business view (`vw_investor_relation`) created at step-8 to address the four problem statements listed below.  
 10. **Documentation** – documented the entire process for easy sharing and better understanding.  
 
+
+Used:
+
+**Databricks for ETL and Orchestration.**
+
+**Github for code-repository and documentaiton.**
+
 ## Probelm Statments:
 
 1. Summarize overall performance of fund 'Fund Two' for Investor 7002.
@@ -94,7 +101,7 @@ This metadata-driven design ensures **scalable orchestration**, **parallel execu
 
 
 
-## Orchestration Setup
+## Notebook & Orchestration Setup
 ![Pipeline Execution](https://github.com/anoopdk/medallion_project/blob/c95163ef55f38ff1d4dde7cda813c3e1e78b3a2b/docs/Pipeline%20Orchestration%20Flow%20Diagram.png)
 
 The pipeline implements a **parameterized, metadata-driven orchestration** that automates data processing across all Medallion layers, Bronze, Silver, and Gold.  
@@ -112,6 +119,8 @@ It is designed for **scalability**, **reusability**, and **parallel execution**.
   - Integrates enriched data to build **fact** and **dimension** tables.  
   - Produces a **business-ready star schema model** optimized for analytics and reporting.  
   - Loads are fully automated based on mappings defined in metadata control tables.
+
+Databricks Job: https://dbc-0f540a54-8135.cloud.databricks.com/jobs/441984073143903?o=1782094926787982 
 
 This end-to-end workflow ensures a seamless transition of data through the Medallion layers, enabling **automated, parallel, and reliable** data pipeline execution.
 
