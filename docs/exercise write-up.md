@@ -22,6 +22,7 @@ I approached this exercise in the following **phases**:
 3. Show trend of MoM sinec initial investments.
 4. Validate data and state any adjustments.
 
+**Solution notebook link** - https://github.com/anoopdk/medallion_project/blob/54727627337bfa87da9cd1a663d710967cc692d8/scripts/exercise/exercise_QnA.ipynb
 
 ## Data Architecture
 ![Data Architecture Diagram](https://github.com/anoopdk/medallion_project/blob/c95163ef55f38ff1d4dde7cda813c3e1e78b3a2b/docs/Data%20Architecture%20Diagram.png)
@@ -147,10 +148,30 @@ This view brings together key information from the **fact** and **dimension** ta
 **Reference - scripts/business views/bus_view_investor_relation.ipynb**
 
 
-**REFERRENCES**
+## **REFERRENCES**
 
-Diagram source files links:
+### Main Links:
+
+Solution notebook - https://github.com/anoopdk/medallion_project/blob/54727627337bfa87da9cd1a663d710967cc692d8/scripts/exercise/exercise_QnA.ipynb
+
+Business view - https://github.com/anoopdk/medallion_project/blob/54727627337bfa87da9cd1a663d710967cc692d8/scripts/business%20views/bus_view_investor_relation.ipynb
+
+Orcheatration notebooks - https://github.com/anoopdk/medallion_project/tree/54727627337bfa87da9cd1a663d710967cc692d8/scripts/orchestration
+
+Jobs - https://github.com/anoopdk/medallion_project/blob/54727627337bfa87da9cd1a663d710967cc692d8/scripts/jobs/job_investor_relation_raw_to_curated.ipynb
+
+
+### Diagram source files:
 
 Architecture - https://github.com/anoopdk/medallion_project/blob/84b83daa083a844bc8113a6958571646b9619c73/docs/Data%20Architecture%20Diagram.drawio
 
 Orchestration & Schema - https://github.com/anoopdk/medallion_project/blob/c95163ef55f38ff1d4dde7cda813c3e1e78b3a2b/docs/Data%20Layers%20and%20Orchestration%20Diagram.drawio 
+
+
+### Miscellaneous 
+
+Contrrol tables DDL script - https://github.com/anoopdk/medallion_project/blob/54727627337bfa87da9cd1a663d710967cc692d8/scripts/sql%20DDL%20scripts/control_tables_ddl_insert.ipynb
+
+Utility notebook - https://github.com/anoopdk/medallion_project/tree/54727627337bfa87da9cd1a663d710967cc692d8/scripts/utilities
+
+
