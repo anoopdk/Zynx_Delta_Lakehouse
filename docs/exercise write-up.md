@@ -157,7 +157,7 @@ This view brings together key information from the **fact** and **dimension** ta
 **Reference - scripts/business views/bus_view_investor_relation.ipynb**
 
 
-## **REFERRENCES**
+## **REFERENCES**
 
 ### Main Links:
 
