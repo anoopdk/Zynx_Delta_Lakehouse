@@ -22,12 +22,14 @@ Used:
 
 **Github for code-repository and documentaiton.**
 
-## Probelm Statments:
+## Probelm Statments
 
 1. Summarize overall performance of fund 'Fund Two' for Investor 7002.
 2. Compare overall return of Investor (7002) with others.
 3. Show trend of MoM sinec initial investments.
 4. Validate data and state any adjustments.
+
+## Solution
 
 **Solution notebook link** - https://github.com/anoopdk/medallion_project/blob/54727627337bfa87da9cd1a663d710967cc692d8/scripts/exercise/exercise_QnA.ipynb
 
