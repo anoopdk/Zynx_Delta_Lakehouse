@@ -18,7 +18,7 @@ I approached this exercise in the following **phases**:
 
 Used:
 
-**Databricks for ETL and Orchestration.**
+**Databricks for ETL and Orchestration. Refer - https://github.com/anoopdk/medallion_project/tree/ebeab8d515e33fa1b659fbcbe4b799d45346dae2/docs**
 
 **Github for code-repository and documentaiton.**
 
