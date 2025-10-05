@@ -22,6 +22,6 @@ Key considerations/Assumptions:
 
 **For exercise solution refer**:
 
-Write-up - https://github.com/anoopdk/medallion_project/blob/38399a3975faa676442c2b866872af4e64dd7f76/docs/exercise%20write-up.md
+Write-up - [https://github.com/anoopdk/medallion_project/blob/38399a3975faa676442c2b866872af4e64dd7f76/docs/exercise%20write-up.md](https://github.com/anoopdk/medallion_project/blob/main/docs/exercise%20write-up.md)
 
 Notebook - https://github.com/anoopdk/medallion_project/tree/38399a3975faa676442c2b866872af4e64dd7f76/scripts/exercise 
