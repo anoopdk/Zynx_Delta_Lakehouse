@@ -1,8 +1,9 @@
 # Data and Analytics Project
 
-This exercise is mainly to build a Medallion pipelines that sources data from csv files and goes through the proper raw, enriched and curated layers before it is comsumed by the business.
+This exercise focuses on building a **Medallion pipeline** that sources data from CSV files and processes it through the **Raw**, **Enriched (Silver)**, and **Curated (Gold)** layers before it is consumed by the business.
 
-The whole exercise of data extraction and curaiton is mainly to answer specific Investor investment related queries.
+The entire process of data extraction and curation is designed to answer specific **investor investment-related queries**.
+
 
 Exercise Scope:
 1. Summarize overall performance of fund 'Fund Two' for Investor 7002.
