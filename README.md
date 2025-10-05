@@ -15,11 +15,11 @@ Key considerations/Assumptions:
 2. Review is limited to the Investor 7002.
 3. For cmparision across investors MoM average is considered.
 4. Use quaterly data points to show changing MoM.
-5. Data in the transaction tbale is historical.
+5. Data in the transaction table is historical.
 6. MoM is the only preimary metric for comparision and trend analysis. 
 
 
-For exercise solution refer:
+**For exercise solution refer**:
 
 Write-up - https://github.com/anoopdk/medallion_project/blob/38399a3975faa676442c2b866872af4e64dd7f76/docs/exercise%20write-up.md
 
