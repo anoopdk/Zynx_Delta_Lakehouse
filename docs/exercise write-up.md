@@ -1,4 +1,4 @@
-## Overview Exercise Documentation
+## Exercise Documentation
 
 ## Approach Overview
 
