@@ -117,7 +117,7 @@ This end-to-end workflow ensures a seamless transition of data through the Medal
 
 
 
-### Star Schema Model & Business View
+## Star Schema Model & Business View
 ![Star Schema](https://github.com/anoopdk/medallion_project/blob/c95163ef55f38ff1d4dde7cda813c3e1e78b3a2b/docs/Start%20Schema%20Model.drawio.png)
 
 The **Gold Layer** of the Medallion Architecture is designed using a **Star Schema** model to support efficient analytics, reporting, and business insights.  
@@ -140,7 +140,7 @@ This schema integrates cleansed and enriched data from the Silver layer into a u
 The Star Schema ensures that curated data is **optimized for analytics**, **easy to query**, and **aligned with business use cases**.
 
 
-### Business View – `vw_investor_relation`
+## Business View – `vw_investor_relation`
 
 To simplify analytics and provide a unified perspective, a **business view** (`vw_investor_relation`) has been designed on top of the **Gold Layer** star schema.  
 This view brings together key information from the **fact** and **dimension** tables to deliver a holistic understanding of investor performance.
