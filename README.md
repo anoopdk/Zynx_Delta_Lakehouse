@@ -9,7 +9,7 @@ Exercise Scope:
 1. Summarize overall performance of fund 'Fund Two' for Investor 7002.
 2. Compare overall return of Investor (7002) with others.
 3. Show trend of MoM sinec initial investments.
-4. Validate data and state any adjustments.
+4. Identify post-hoc adjustments.
 
 Key considerations/Assumptions:
 1. Scope of analysis is restricted to fun "Fund Two"
