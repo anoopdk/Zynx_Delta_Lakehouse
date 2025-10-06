@@ -14,10 +14,10 @@ Exercise Scope:
 Key considerations/Assumptions:
 1. Scope of analysis is restricted to fun "Fund Two"
 2. Review is limited to the Investor 7002.
-3. For cmparision across investors MoM average is considered.
+3. For comparision across investors, MoM average is considered.
 4. Use quaterly data points to show changing MoM.
 5. Data in the transaction table is historical.
-6. MoM is the only preimary metric for comparision and trend analysis. 
+6. MoM is the only primary metric for comparision and trend analysis. 
 
 
 **For exercise solution refer**:
