@@ -31,7 +31,7 @@ Used:
 
 ## Solution
 
-**Solution notebook link** - https://github.com/anoopdk/medallion_project/blob/54727627337bfa87da9cd1a663d710967cc692d8/scripts/exercise/exercise_QnA.ipynb
+**Solution notebook link** - https://github.com/anoopdk/medallion_project/blob/main/scripts/exercise/exercise_solutions.ipynb
 
 **Solution output screen-shots** - https://github.com/anoopdk/medallion_project/blob/main/docs/solution%20screenshots.md
 
@@ -171,7 +171,7 @@ This view brings together key information from the **fact** and **dimension** ta
 
 ### Main Links:
 
-Solution notebook - https://github.com/anoopdk/medallion_project/blob/54727627337bfa87da9cd1a663d710967cc692d8/scripts/exercise/exercise_QnA.ipynb
+Solution notebook - https://github.com/anoopdk/medallion_project/blob/main/scripts/exercise/exercise_solutions.ipynb
 
 Business view - https://github.com/anoopdk/medallion_project/blob/54727627337bfa87da9cd1a663d710967cc692d8/scripts/business%20views/bus_view_investor_relation.ipynb
 
