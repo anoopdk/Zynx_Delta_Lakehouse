@@ -16,4 +16,4 @@
 4 - Identify post-hoc adjustments
 <img width="1422" height="680" alt="image" src="https://github.com/user-attachments/assets/9bbc76a8-ed73-4360-99c4-11201a316d84" />
 
-Note: full data output of (4) is uploaded here - 
+Note: full data output of (4) is uploaded here - https://github.com/anoopdk/medallion_project/blob/main/docs/4-solution-output.xlsx 
