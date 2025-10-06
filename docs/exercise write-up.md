@@ -18,7 +18,7 @@ I approached this exercise in the following **phases**:
 
 Used:
 
-**Databricks for ETL and Orchestration. Refer - https://github.com/anoopdk/medallion_project/tree/ebeab8d515e33fa1b659fbcbe4b799d45346dae2/docs**
+**Databricks for ETL and Orchestration.**
 
 **Github for code-repository and documentaiton.**
 
@@ -32,6 +32,8 @@ Used:
 ## Solution
 
 **Solution notebook link** - https://github.com/anoopdk/medallion_project/blob/54727627337bfa87da9cd1a663d710967cc692d8/scripts/exercise/exercise_QnA.ipynb
+
+**Databricks work link** - https://github.com/anoopdk/medallion_project/blob/main/docs/databricks%20work%20documentation.md
 
 ## Data Architecture
 ![Data Architecture Diagram](https://github.com/anoopdk/medallion_project/blob/c95163ef55f38ff1d4dde7cda813c3e1e78b3a2b/docs/Data%20Architecture%20Diagram.png)
