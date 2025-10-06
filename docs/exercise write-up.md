@@ -33,7 +33,13 @@ Used:
 
 **Solution notebook link** - https://github.com/anoopdk/medallion_project/blob/54727627337bfa87da9cd1a663d710967cc692d8/scripts/exercise/exercise_QnA.ipynb
 
+**Solution screenshots** - 
+
 **Databricks work link** - https://github.com/anoopdk/medallion_project/blob/main/docs/databricks%20work%20documentation.md
+
+**Link to create your own Git folder** - https://dbc-0f540a54-8135.cloud.databricks.com/browse/folders/home?addGit=&o=1782094926787982&gitUrl=https%3A%2F%2Fgithub.com%2Fanoopdk%2Fmedallion_project.git&gitProvider=gitHub
+
+**Solution output screen-shots** - https://github.com/anoopdk/medallion_project/blob/main/docs/solution%20screenshots.md
 
 ## Data Architecture
 ![Data Architecture Diagram](https://github.com/anoopdk/medallion_project/blob/c95163ef55f38ff1d4dde7cda813c3e1e78b3a2b/docs/Data%20Architecture%20Diagram.png)
