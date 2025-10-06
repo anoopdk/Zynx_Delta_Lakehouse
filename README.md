@@ -22,6 +22,12 @@ Key considerations/Assumptions:
 
 **For exercise solution refer**:
 
-Write-up - https://github.com/anoopdk/medallion_project/blob/main/scripts/exercise/exercise_solutions.ipynb
+Write-up - https://github.com/anoopdk/medallion_project/blob/main/docs/exercise%20write-up.md
+
+Solution notebook - https://github.com/anoopdk/medallion_project/blob/main/scripts/exercise/exercise_solutions.ipynb
+
+Solution screen-shots - https://github.com/anoopdk/medallion_project/blob/main/docs/solution%20screenshots.md
+
+Databricks work - https://github.com/anoopdk/medallion_project/blob/main/docs/databricks%20work%20documentation.md 
 
 Notebook - https://github.com/anoopdk/medallion_project/tree/38399a3975faa676442c2b866872af4e64dd7f76/scripts/exercise 
