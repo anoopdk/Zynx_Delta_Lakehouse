@@ -12,7 +12,7 @@ Exercise Scope:
 4. Identify post-hoc adjustments.
 
 Key considerations/Assumptions:
-1. Scope of analysis is restricted to fun "Fund Two"
+1. Scope of analysis is restricted to fund "Fund Two"
 2. Review is limited to the Investor 7002.
 3. For comparision across investors, MoM average is considered.
 4. Use quaterly data points to show changing MoM.
