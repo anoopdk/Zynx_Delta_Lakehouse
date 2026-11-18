@@ -1,32 +1,97 @@
-# Data and Analytics Project
+# Investor Relations Medallion Pipeline
 
-This exercise focuses on building a **Medallion pipeline** that sources data from CSV files and processes it through the **Raw**, **Enriched (Silver)**, and **Curated (Gold)** layers before it is consumed by the business.
+**Delivered by:** [Zynx Technologies Ltd](https://www.zynxtechnologies.com/)  
+**Portfolio host (pre-fork):** `anoopdk/medallion_project`  
+**Domain client (sanitised):** Zynx x Financial Services Client  
+**Engagement type:** Implementation Delivery  
+**Portfolio version:** `1.0.0-portfolio`
 
-The entire process of data extraction and curation is designed to answer specific **investor investment-related queries**.
+> Inspection note: Client identity is domain-aliased for public portfolio use. This repository is structured for authenticity review of delivery artefacts, architecture, and engagement scope.
 
+## Project overview
 
-Exercise Scope:
-1. Summarize overall performance of fund 'Fund Two' for Investor 7002.
-2. Compare overall return of Investor (7002) with others.
-3. Show trend of MoM sinec initial investments.
-4. Identify post-hoc adjustments.
+The Financial Services Client needed a governed medallion pipeline that curates investor and fund transaction history so investment teams can answer fund performance, peer comparison, MoM trend, and post-hoc adjustment questions without ad-hoc spreadsheet work.
 
-Key considerations/Assumptions:
-1. Scope of analysis is restricted to fund "Fund Two"
-2. Review is limited to the Investor 7002.
-3. For comparision across investors, MoM average is considered.
-4. Use quaterly data points to show changing MoM.
-5. Data in the transaction table is historical.
-6. MoM is the only primary metric for comparision and trend analysis. 
+### Solution delivered
 
+Zynx delivered a Raw -> Enriched -> Curated (Bronze/Silver/Gold) lakehouse-style pipeline with orchestration notebooks, SQL DDL/control tables, business views, unit-test notebooks, and documented Databricks execution evidence.
 
-**For exercise solution refer**:
+## Engagement levels
 
-Write-up - https://github.com/anoopdk/medallion_project/blob/main/docs/exercise%20write-up.md
+| # | Level |
+| --- | --- |
+| 1 | Discovery & Requirements Confirmation |
+| 2 | Solution Architecture |
+| 3 | Implementation Delivery |
+| 4 | Validation & Knowledge Transfer |
 
-Solution notebook - https://github.com/anoopdk/medallion_project/blob/main/scripts/exercise/exercise_solutions.ipynb
+| Field | Value |
+| --- | --- |
+| Engagement posture | Delivery portfolio artefact prepared for audit / inspection |
+| Confidentiality | Domain alias only; no real client legal name in public docs |
+| Primary artefacts | Code/notebooks/docs already in-repo + Zynx standard pack under `docs/` and `decks/` |
 
-Solution screen-shots - https://github.com/anoopdk/medallion_project/blob/main/docs/solution%20screenshots.md
+## Architecture
 
-Databricks work - https://github.com/anoopdk/medallion_project/blob/main/docs/databricks%20work%20documentation.md 
+```mermaid
+flowchart LR
+  SRC[CSV / source extracts] --> RAW[Raw / Bronze]
+  RAW --> ENR[Enriched / Silver]
+  ENR --> CUR[Curated / Gold]
+  CUR --> BV[Business views]
+  BV --> CONSO[Investor analytics consumers]
+  CTRL[Control tables + orchestration] -.-> RAW
+  CTRL -.-> ENR
+  CTRL -.-> CUR
+```
 
+### Implementation flow
+
+```mermaid
+flowchart TB
+  O1[Source to Raw orchestration] --> O2[Raw to Enrich]
+  O2 --> O3[Enrich to Curated]
+  O3 --> BV[Investor relation business views]
+  UT[Unit tests] --> O1
+  UT --> O2
+```
+
+## Technology stack
+
+`Databricks`, `Spark / notebooks`, `SQL DDL`, `Medallion architecture`, `Unit-test notebooks`
+
+## Repository map
+
+| Path | Purpose |
+| --- | --- |
+| `README.md` | Project overview + engagement levels |
+| `docs/` | Problem, solution, architecture, implementation, runbook, audit factsheet |
+| `decks/` | 3-slide delivery overview (Markdown + HTML) |
+| `src/` / project subtree | Implementation assets (or placeholders where design-led) |
+| `tests/` | Tests or placeholders |
+| `scripts/` | Operational / helper scripts |
+| `configs/` | Non-secret configuration templates |
+| `.env.example` | Environment variable placeholders |
+
+### Key existing delivery paths
+
+- `docs/exercise write-up.md`
+- `scripts/exercise/exercise_solutions.ipynb`
+- `scripts/orchestration/`
+- `unit_test/`
+
+## How to inspect this repository
+
+1. Read this README (overview + engagement).
+2. Open `docs/audit/PROJECT-FACTSHEET.md`.
+3. Review architecture in `docs/03-architecture.md`.
+4. Walk implementation evidence listed in the factsheet.
+5. Open `decks/overview.html` for the 3-slide executive summary.
+
+## Related Zynx context
+
+Zynx Technologies Ltd provides IT consulting across cloud, data analytics, and digital delivery. This repository is part of the public delivery portfolio hosted on `anoopdk` prior to organisation-level fork.
+
+## License
+
+See `LICENSE`.
